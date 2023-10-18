@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+body {
+    font-size:'Open Sans', sans-serif;
+}
+.main {
+    width: 1110px;
+    margin: 0 auto; 
+}
+/* HEADER */
+.header {
+    display: block;
+    text-align: center;
+    height: 900px;
+    background-color: #f6f6f6;
+}
+.nav-menu-list li {
+    display: inline-block;
+    margin-right: 60px;
+}
+.nav-menu-list li:nth-child(6) {
+    margin-right: 57px;
+}
+.nav-menu-list li:last-child {
+    margin-right: 0
+}
+.nav-menu-list a{
+    font-weight: bold;
+    text-transform: uppercase ;
+    font-size: 16px;
+}
+.nav-menu {
+    padding-top: 90px;
+}
+.logo {
+    padding-top: 220px;
+    padding-bottom: 230px;
+}
+.arrow img {
+    margin-left: -66px;
+}
+/* MOBBILE-APP */
+.mobile-app {
+    padding-top: 90px;
+    background: url(../img/MOBILE\ .svg) no-repeat center 58%;
+    z-index: 0;
+    width: 100%;
+}
+.main-mobile-app {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.mobile-app-text span {
+    font-size: 40px;
+    font-weight: 300;
+}
+.mobile-app-text h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 117px;
+}
+.mobile-app-text p {
+    font-size: 32px ;
+    font-weight: normal ;
+}
+.mobile-app-img img {
+    padding-left: 163px;
+}
+/* FLEX TEAM */
+.flex-team {
+    margin-top: 90px;
+    background: url(../img/demo.png) repeat-y;
+    width: 100%;
+    background-size: 52% auto;
+}
+.flex-team-container {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-grey-team h3 {
+    font-size: 36px;
+    padding-bottom: 35px;
+    padding-top: 91px;
+}
+.flex-grey-team p {
+    font-size: 28px;
+    padding-bottom: 74px;
+}
+.flex-grey-team {
+    text-align: left;
+    width: 576px;
+}
+.flex-white-team {
+    text-align: right;
+}
+.flex-white-team span {
+    padding-top: 15px;
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 24px;
+    padding-left: 115px;
+}
+.flex-white-team h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 117px;
+    padding-left: 30px;
+}
+/* ZERO BLOCK */
+.zero-block {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../img/TEAM.svg) no-repeat 155% top;
+}
+.zero-block h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+/* FUTURES */
+.futures-items-group {
+    display: flex;
+}
+.gray-bg {
+    background-color: #f6f6f6;
+}
+.futures-item {
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: 68px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.futures-item img {
+    padding-bottom: 60px;
+}
